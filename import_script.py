@@ -21,11 +21,9 @@ clean_data = []
 for row in rows[1:]:
     link = row.find('a')["href"]
     stripped_list = list(row.stripped_strings)
-    stripped_list.append(link)
-    
+    stripped_list.append(link)    
     clean_data.append(stripped_list)
 
-print(clean_data)
 
 def main():
     db.drop_all()
