@@ -14,6 +14,3 @@ ENV/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-
-# Database
-*.db
