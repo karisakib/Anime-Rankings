@@ -1,0 +1,19 @@
+# General
+.DS_Store
+.vscode
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Python
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Database
+*.db
